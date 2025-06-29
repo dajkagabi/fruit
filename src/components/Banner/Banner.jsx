@@ -22,6 +22,9 @@ const Banner = () => {
           Nézd meg kínálatunkat
         </a>
       </div>
+
+    
+
     </div>
   )
 }
