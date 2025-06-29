@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/termekek" element={<Termekek/>} />
         <Route path="/rolunk" element={<Rolunk/>} />
         <Route path="/kapcsolat" element={<Kapcsolat/>} />
-        <Route path="*" element={<div>404 Not Found</div>} />
+       
 
       </Routes>
 
