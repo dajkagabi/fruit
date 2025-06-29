@@ -51,31 +51,20 @@ const Hero = () => {
             
             <span className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
               {/* Példa Facebook ikon */}
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                <circle cx="16" cy="16" r="16" fill="#1877F3"/>
-                <path d="M20.5 16H17V26H13V16H10.5V13H13V11.5C13 9.57 14.07 8 16.5 8H20V11H18C17.45 11 17 11.45 17 12V13H20.5V16Z" fill="white"/>
-              </svg>
+              <a href="#"><img src="src/icons/facebook.svg" alt="Facebook" className="w-5 h-5" /></a>
             </span>
             <span className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
               {/* Példa Instagram ikon */}
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                <circle cx="16" cy="16" r="16" fill="#E1306C"/>
-                <g>
-                  <rect x="10" y="10" width="12" height="12" rx="4" fill="white"/>
-                  <circle cx="16" cy="16" r="3" fill="#E1306C"/>
-                  <circle cx="20.5" cy="11.5" r="1" fill="#E1306C"/>
-                </g>
-              </svg>
+            <div className="flex gap-4">
+            
+            <a href="#"><img src="src/icons/instagram.svg" alt="Instagram" className="w-5 h-5" /></a>
+            
+          </div>
             </span>
           
             <span className="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
               {/* TikTok ikon */}
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                <circle cx="16" cy="16" r="16" fill="#000"/>
-                <path d="M22.5 13.5c-1.38 0-2.5-1.12-2.5-2.5V8h-2.1v10.1c0 1.16-.94 2.1-2.1 2.1s-2.1-.94-2.1-2.1 0-2.1 2.1-2.1v-2.1c-2.32 0-4.2 1.88-4.2 4.2s1.88 4.2 4.2 4.2 4.2-1.88 4.2-4.2V15c.7.32 1.48.5 2.3.5h.5v-2z" fill="#fff"/>
-                <path d="M20 8v3c0 1.38 1.12 2.5 2.5 2.5h1V11.2c-.7-.06-1.36-.3-1.9-.7C20.9 9.8 20.4 9 20 8z" fill="#25F4EE"/>
-                <path d="M22.5 13.5c-1.38 0-2.5-1.12-2.5-2.5V8h-1v10.1c0 1.16-.94 2.1-2.1 2.1s-2.1-.94-2.1-2.1 0-2.1 2.1-2.1v-1c-2.32 0-4.2 1.88-4.2 4.2s1.88 4.2 4.2 4.2 4.2-1.88 4.2-4.2V15c.7.32 1.48.5 2.3.5h.5v-2z" fill="#000"/>
-              </svg>
+             <a href="#"><img src="src/icons/tiktok.svg" alt="TikTok" className="w-5 h-5" /></a>
             </span>
           </div>
         </div>
