@@ -1,12 +1,39 @@
-# React + Vite
+# Fruit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Egy letisztult, modern React.js alapú frontend projekt, ami Tailwind CSS-sel van megspékelve. Célja, hogy egy gyümölcsökkel foglalkozó weboldalt hozzon létre, ami gyors, reszponzív és vizuálisan friss.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ez a Fruit egy React + Tailwind powered webalkalmazás, ami szuper egyszerű, mégis elegáns módon jeleníti meg a gyümölcsökkel kapcsolatos tartalmakat. Tökéletes példa arra, hogyan lehet gyorsan és stílusosan frontend oldalt építeni a mai legmenőbb technológiákkal.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Fő technológiák
+
+- **React.js** – a frontend gerince, komponens alapú fejlesztésre szabva  
+- **Tailwind CSS** – utility-first CSS framework, hogy a design legyen gyors és egyszerű  
+- **Vite / Webpack** – ha van, build és fejlesztői környezet
+
+---
+ Telepítés és futtatás
+
+1. Klónozd a repót:
+
+```bash
+git clone https://github.com/dajkagabi/fruit.git
+cd fruit
+```
+2. Futtatás:
+```bash
+npm install
+npm run dev
+```
+
+
+![Home-1](https://github.com/user-attachments/assets/217c6885-367a-4b32-bd98-a5d8abed05b3)
+
+![Home-2](https://github.com/user-attachments/assets/a7b3f653-d4d1-4ec6-94db-303cf2d748bc)
+
+
+
+
